@@ -1,0 +1,37 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Maven
+app/target/
+app/pom.xml.tag
+app/pom.xml.releaseBackup
+app/pom.xml.versionsBackup
+app/pom.xml.next
+app/release.properties
+app/dependency-reduced-pom.xml
+app/buildNumber.properties
+app/.mvn/timing.properties
+app/.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Logs
+*.log
+app/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Packer
+packer/packer_cache/
